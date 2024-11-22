@@ -22,23 +22,48 @@
 </head>
 
 <body>
-    <section id="header">
-        <a href="#" class="logo">Herb Wonders </a>
 
-        <div>
-            <ul id="navbar">
-                <li><a href="index.html">Home</a></li>
-                <li><a class="active" href="">Products</a></li>
-                <li><a href="index.html">About</a></li>
-                <li><a href="">Contact</a></li>
-                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
-            </ul>
-        </div>
-
-        <div id="mobile">
-            <i id="bar" class="fas fa-outdent"></i>
-        </div>
-    </section>
+        <!-- <header class="header">
+		<div class="container">
+			<a href="index.html" class="logo">Herb Wonders</a>
+			<input class="menu-btn" type="checkbox" id="menu-btn">
+			<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+			<ul class="menu">
+				<li><a href="index.html" class="active">Home</a></li>
+				<li><a href="#product1">Products</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+			
+			</ul>
+		</div>
+		
+	</header> -->
+      <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#"> Herb Wonders</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#product1">Proudact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- nav -->
 
     <section id="prodetails" class="section-p1">
         <div class="single-pro-image">
@@ -239,6 +264,8 @@
 
 
     <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
